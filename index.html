@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Darkbleed — Discord Bot for Community Servers</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Darkbleed — moderation and community utility bot for Discord servers.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <img src="assets/avatar.png" alt="Darkbleed logo" id="logo" class="logo">
+        <div>
+          <h1>Darkbleed</h1>
+          <p class="tagline">Moderation, engagement, and community tools for Discord.</p>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#features">Features</a>
+        <a href="#commands">Commands</a>
+        <a href="#invite" class="btn">Invite</a>
+        <a href="#support">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="container hero">
+      <h2>Keep your server safe and thriving</h2>
+      <p>Darkbleed helps community servers moderate, welcome, and engage members with configurable moderation, reaction roles, logs and fun utilities.</p>
+      <div class="hero-cta">
+        <a id="invite-button" class="btn primary" href="https://discord.com/oauth2/authorize?client_id=1532801921101074672&scope=bot%20applications.commands&permissions=8">Invite Darkbleed</a>
+        <a class="btn" href="#features">Explore features</a>
+      </div>
+    </section>
+
+    <section id="features" class="container cards">
+      <h3>Features</h3>
+      <ul class="features-list">
+        <li>
+          <h4>Auto-moderation</h4>
+          <p>Detect spam, excessive caps, blacklisted words and unwanted links automatically.</p>
+        </li>
+        <li>
+          <h4>Moderation tools</h4>
+          <p>Kick/ban/mute with case logging, audit entries and configurable punishments.</p>
+        </li>
+        <li>
+          <h4>Welcome & Reaction roles</h4>
+          <p>Custom welcome messages and reaction role setup to automate member onboarding.</p>
+        </li>
+        <li>
+          <h4>Slash commands & Prefix</h4>
+          <p>Full slash command support with easy configuration and permissions.</p>
+        </li>
+        <li>
+          <h4>Utility & Fun</h4>
+          <p>Polls, reminders, info commands, and small games to boost engagement.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="commands" class="container">
+      <h3>Example Commands</h3>
+      <dl class="commands-list">
+        <dt>/kick &lt;user&gt; [reason]</dt>
+        <dd>Kick a user (requires permission).</dd>
+        <dt>/ban &lt;user&gt; [reason]</dt>
+        <dd>Ban a user.</dd>
+        <dt>/mute &lt;user&gt; [duration]</dt>
+        <dd>Temporarily mute a member.</dd>
+        <dt>/poll &lt;question&gt;</dt>
+        <dd>Create a reaction poll quickly.</dd>
+      </dl>
+    </section>
+
+    <section id="invite" class="container">
+      <h3>Invite & Support</h3>
+      <p>
+        Invite Darkbleed to your server using this link:
+        <code id="invite-link">https://discord.com/oauth2/authorize?client_id=1532801921101074672&scope=bot%20applications.commands&permissions=8</code>
+        <button id="copy-invite">Copy</button>
+      </p>
+      <p><strong>Support server:</strong> <a href="https://discord.gg/NjMQJZmPee">Join the support server</a></p>
+    </section>
+
+    <section id="contact" class="container">
+      <h3>Contact & Changelog</h3>
+      <p>Want a feature or found a bug? Open an issue in this repository or join the support server.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <small>© <span id="year"></span> Darkbleed — Made for Discord communities.</small>
+      <div class="foot-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
